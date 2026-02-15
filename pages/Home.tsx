@@ -39,8 +39,8 @@ const Home: React.FC = () => {
       {/* Header */}
       <header className="flex justify-between items-center mb-6">
         <div>
-           <h1 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">Discover</h1>
-           <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">For POCO M6 Pro 4G & Redmi Note 13 Pro 4G</p>
+           <h1 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">Discover Custom ROMs</h1>
+           <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">made for emerald</p>
         </div>
         <button 
           onClick={handleRefresh}

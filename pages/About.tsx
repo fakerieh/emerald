@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, Github, Twitter, Coffee } from 'lucide-react';
+import { Info, Github } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -18,6 +18,8 @@ const About: React.FC = () => {
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
                 ROMVault is your dedicated destination for discovering and tracking the best Custom ROMs for <b>POCO M6 Pro 4G</b> and <b>Redmi Note 13 Pro 4G</b>. 
                 Built with modern design principles, it helps enthusiasts find stable, secure, and feature-rich OS alternatives specifically tailored for these devices.
+                <br /><br />
+                @fakeripage
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Features</h3>
@@ -41,14 +43,8 @@ const About: React.FC = () => {
             </ul>
 
             <div className="pt-6 border-t border-gray-100 dark:border-zinc-800 flex justify-center gap-6">
-                <a href="#" className="p-3 rounded-full bg-gray-50 dark:bg-zinc-800 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+                <a href="https://github.com/fakerieh" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-gray-50 dark:bg-zinc-800 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
                     <Github size={24} />
-                </a>
-                <a href="#" className="p-3 rounded-full bg-gray-50 dark:bg-zinc-800 text-gray-600 dark:text-gray-400 hover:text-blue-400 transition-colors">
-                    <Twitter size={24} />
-                </a>
-                 <a href="#" className="p-3 rounded-full bg-gray-50 dark:bg-zinc-800 text-gray-600 dark:text-gray-400 hover:text-yellow-500 transition-colors">
-                    <Coffee size={24} />
                 </a>
             </div>
             
